@@ -12,7 +12,9 @@ def main():
             if(ask_again == 'yes'):
                 ask_again = True
             else:
+                ask_again = True
                 ask_again = False
+
                 print("You performed " + str(operations_count) + " operations, bye!")
 def perform_division(a,b):
     try:
